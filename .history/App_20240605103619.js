@@ -3,9 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { useFonts } from "expo-font";
 import React from "react";
 import { SafeAreaView, StatusBar, StyleSheet } from "react-native";
-import TabNavigation from "./App/Navigations/TabNavigation";
-import Login from "./App/Screens/Login";
-// import Login from "./app/Screens/Login";
+import TabNavigation from "./app/Navigations/TabNavigation";
+import Login from "./app/Screens/Login";
 export default function App() {
   const [fontsLoaded, fontError] = useFonts({
     text_regular: require("./assets/fonts/Poppins-Regular.ttf"),
