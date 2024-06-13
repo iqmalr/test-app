@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@clerk/clerk-expo": "^1.0.0",
+    "@react-native-community/datetimepicker": "^8.1.0",
     "@react-navigation/bottom-tabs": "^6.5.16",
     "@react-navigation/native": "^6.1.14",
     "@react-navigation/stack": "^6.3.25",
     "@types/react": "~18.2.79",
     "axios": "^1.6.7",
     "expo": "^51.0.9",
+    "expo-dev-client": "~4.0.15",
     "expo-font": "~12.0.5",
     "expo-linear-gradient": "~13.0.2",
     "expo-status-bar": "~1.12.1",
@@ -24,11 +26,12 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "^0.74.1",
+    "react-native-date-picker": "^5.0.4",
     "react-native-dotenv": "^3.4.11",
     "react-native-gesture-handler": "~2.16.1",
+    "react-native-modal-datetime-picker": "^17.1.0",
     "react-native-screens": "3.31.1",
-    "typescript": "~5.3.3",
-    "expo-dev-client": "~4.0.15"
+    "typescript": "~5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0"
